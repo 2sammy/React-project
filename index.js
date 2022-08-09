@@ -51,6 +51,24 @@ const page = (
     </div>
 )
 ReactDOM.render(
-    page, 
-    document.getElementById("root")
+    page, document.getElementById("root")
 ) 
+//ReactDOM.render(<p>i love js</p>,docu)
+ReactDOM.render(
+    <di>
+    <h1 className="header">hello</h1>
+    <p>hello there</p>
+    </di>, document.getElementById("roots")
+
+)
+const Navbar = (
+    <nav>
+        <h1>commerce</h1>
+        <ul>
+            <li>Contact</li>
+            <li>Pricing</li>
+            <li>About</li>
+        </ul>
+    </nav>
+)
+ReactDOM.render(nav,document.getElementById("roots"))
