@@ -10,3 +10,42 @@ var user = {
 
 };
 console.log(user.email);
+
+var userOne = {
+    name :"manoah",
+    email :"manoah.co.ke",
+    login(){
+        console(this.email,"logged in");
+    },
+    logout(){
+        console.log(this.email, "logged out")
+    }
+}
+
+var userThree = {
+    name:"mike",
+    email:"mike@gmail.com",
+    login(){
+        console.log(this.email, "logged in");
+    },
+    logout(){
+        console.log(this.email, "logged out");
+    }
+
+
+
+}
+
+var userFour = {
+    name: "sunshine",
+    email: "sunshine@gmail.com",
+    login(){
+        console.log(this.email, "loggid");
+    },
+    logout(){
+        console.log(this.email,"loggig");
+    }
+}
+
+
+
