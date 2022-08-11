@@ -1,15 +1,19 @@
 class aspirant {
-    constructor(area,votes,name){
-    this.votes = votes;
-    this.area = area;
+    constructor(email,name){
+    this.area = email;
     this.name = name;
+    this.score = 0;
 
 }
 login(){
-    console.log(this.area, "know your area");
+    console.log(this.email, "know your area");
 }
 logout(){
-    console.log(this.area, "know your votes");
+    console.log(this.email, "know your votes");
+}
+updateScore(){
+    this.score++;
+    console.log(this.email, "score is now", this.score)
 }
 }
 
