@@ -11,3 +11,6 @@ classes in javascript act as blueprints
 -creates a new empty object{}
 -sets the value of "this" to be new empty object
 -calls the constructor method
+
+#what is react component
+-its a function that returns react elements
