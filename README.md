@@ -14,3 +14,4 @@ classes in javascript act as blueprints
 
 #what is react component
 -its a function that returns react elements
+-flex gives components to be align in a row

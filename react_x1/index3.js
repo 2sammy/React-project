@@ -5,7 +5,7 @@ import ReactDOM from "react-dom"
 function Header(){
     return(
         <header>
-    <nav class = "nav">
+    <nav className = "nav">
         <img src="./react-logo.png" class="logo"/>
         <ul class = "nav-items">
             <li>Pricing</li>
@@ -18,6 +18,7 @@ function Header(){
 </header>
     )
 }
+
  function Footer(){
     return(
         <small> @ 2021 sanchez development. All rights reserved.</small>
@@ -43,20 +44,15 @@ ReactDOM.render(<Header/>,document.getElementById("root"))
 
 function Page() {
     return(
-        <>
+    <>
+        <Header />
 
-        <h1>Reasons am exicited to learn react</h1>
-        <ol>
-            <li>cool</li>
-            <li>vibe</li>
-            <li>easier to understand</li>
-        </ol>
-        <footer>
-           <small> @ 2021 sanchez development. All rights reserved.</small>
-        </footer>
+        <MainContent />
+        <footer />
         </>
     )
 }
+
 
 ReactDOM.render(<page/>, document.getElementById("root"))
 
